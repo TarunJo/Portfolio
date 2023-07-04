@@ -67,9 +67,17 @@ for (let i = 0; i < filterBtn.length; i++) {
     lastClickedBtn = this;
 
   });
-
 }
 
+
+// download resume button
+
+function downloadFile() {
+  var url= document.createElement("a");
+  url.href="./assets/images/resume.pdf";
+  url.download = "resume.pdf";
+  window.open(url, '_blank');
+}
 
 
 // contact form variables
