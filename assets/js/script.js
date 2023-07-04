@@ -79,7 +79,6 @@ function downloadFile() {
   window.open(url, '_blank');
 }
 
-
 // contact form variables
 const form = document.querySelector("[data-form]");
 const formInputs = document.querySelectorAll("[data-form-input]");
